@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.05rem;
+    padding: 0;
+    margin: 0;
+    height: 100%;;
+}
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-container {
+    position: fixed;
+    margin-left: -10px;
+    display:flex;
+    align-items: center;
+    height: 100%;
+    width: 910px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 353px;
+    width: 247px;
+    border: 1px solid white;
+    background: white;
+    transition: transform 0.2s;
+    box-shadow:  7px 8px 15px black;
+    margin-right: 75px;
+}
+.card-img{
+ display: none;
+}
+.card-img1{
+    height: 189px;
+    width: 247px;
+}
+
+.card-title{
+    padding: 0px 0px 0px 20px;
+    margin-top: 10px;
+    font-weight: 550;
+    font-size: 25px;
+    font-family: "Marmelad";
+}
+.card-text{
+    padding: 0px 10px 0px 20px;
+    font-size: 14px;
+    font-family: "Montserrat";
+}
+.card-mover-btn{
+    position: absolute;
+    margin-left: -340px;
+    margin-right: -150px;
+}
+.btn{
+    font-size: 40px;
+    color: #F78F20;
+    border: 3px, #ffffff47;
+    border-radius: 400px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background: rgb(255, 255, 255);
+    transition: 0.05s;
+    margin-left: 80px;
+    height: 60px;
+    width: 60px;
+}
+.prev-cont{
+    margin-right: 66%
+}
+.next-cont{
+    margin-left: 66%;
+}
